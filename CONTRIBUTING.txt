@@ -40,3 +40,36 @@ Project Structure
   CONTRIBUTORS.txt   - list of everyone who has contributed
   CONTRIBUTING.txt   - this guide
   README.md          - workshop challenge instructions
+
+Pull Request Guidelines
+-----------------------
+Before opening a PR, verify:
+  - Your branch name follows the convention above
+  - All commit messages follow the format above
+  - Your recipe file is inside recipes/
+  - You have added your name to CONTRIBUTORS.txt
+  - You have added your recipe to RECIPES_INDEX.txt in alphabetical order
+
+PR title format: type: what you did
+Example: "feat: add mushroom risotto recipe"
+
+PR description template:
+  ## What I added / changed
+  [Brief description of the recipe or fix]
+
+  ## Checklist
+  - [ ] Recipe file in recipes/ folder
+  - [ ] Name added to CONTRIBUTORS.txt
+  - [ ] Recipe added to RECIPES_INDEX.txt (alphabetical order)
+  - [ ] Commit messages follow conventions
+
+Code Review Guidelines
+----------------------
+When reviewing a PR:
+  - Read the full diff in the "Files changed" tab
+  - Leave at least one specific inline comment
+    Good: "Line 4: should this be 200g or 300g?"
+    Not helpful: "Looks good"
+  - Either approve (with a positive note) or request changes (with a reason)
+  - Keep all feedback constructive and specific
+  - Respond to all review comments before merging
