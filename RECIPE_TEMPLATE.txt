@@ -1,0 +1,29 @@
+Recipe Template
+===============
+
+Use this as a starting point for new recipes.
+Copy to recipes/your-recipe-name.txt and fill in the fields.
+
+[Recipe Name]
+=============
+
+[One-line description of the dish]
+
+Ingredients:
+- [amount] [ingredient]
+- [amount] [ingredient]
+- (add more lines as needed)
+
+Instructions:
+1. [First step]
+2. [Second step]
+3. (add more steps as needed)
+
+Tips:
+- [Optional tip]
+- [Optional tip]
+
+---
+Naming convention for recipe files:
+  use lowercase letters and hyphens only
+  examples: mushroom-risotto.txt, lemon-tart.txt, beef-stew.txt
