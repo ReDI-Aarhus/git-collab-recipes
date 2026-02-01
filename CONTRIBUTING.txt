@@ -1,0 +1,42 @@
+Contributing Guide
+==================
+
+Welcome to the recipe book project! Please follow these guidelines.
+
+Branch Naming Convention
+------------------------
+Format: <type>/<yourname>/<short-description>
+
+Type options:
+  feat     - adding a new recipe
+  fix      - correcting a mistake
+  docs     - documentation changes only
+
+Examples:
+  feat/alice/mushroom-risotto
+  fix/bob/correct-baking-temperature
+  docs/carol/update-readme
+
+Commit Message Format
+---------------------
+We use Conventional Commits format.
+
+Format: <type>: <short description>
+
+Examples:
+  feat: add mushroom risotto recipe
+  fix: correct baking temperature in chocolate cake
+  docs: update contributing guide
+
+Rules:
+  - Keep the subject line under 72 characters
+  - Use the imperative mood: "add" not "added"
+  - Be specific about what changed
+
+Project Structure
+-----------------
+  recipes/           - one .txt file per recipe
+  RECIPES_INDEX.txt  - alphabetical list of all recipes (keep it updated!)
+  CONTRIBUTORS.txt   - list of everyone who has contributed
+  CONTRIBUTING.txt   - this guide
+  README.md          - workshop challenge instructions
