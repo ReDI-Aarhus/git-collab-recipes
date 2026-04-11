@@ -3,6 +3,7 @@ Recipe Index
 
 Format: filename - Recipe Name (Contributor)
 
+cheesecake.txt         - Cheseecake (Magdalena)
 chocolate-cake.txt     - Chocolate Cake (Bob Bruschetta)
 greek-salad.txt        - Greek Salad / Horiatiki (Carol Carbonara)
 guacamole.txt          - Guacamole (Carol Carbonara)
