@@ -7,6 +7,7 @@ chocolate-cake.txt     - Chocolate Cake (Bob Bruschetta)
 greek-salad.txt        - Greek Salad / Horiatiki (Carol Carbonara)
 guacamole.txt          - Guacamole (Carol Carbonara)
 pasta-carbonara.txt    - Pasta Carbonara (Alice Arancini)
+pizza.txt              - pizza (SandhyaLekshmi)
 tiramisu.txt           - Tiramisu (Dave Dolmades)
 
 ---
