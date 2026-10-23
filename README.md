@@ -5,11 +5,26 @@ practice real-world GitHub workflows.
 
 ## Before You Start
 
-1. **Fork** this repository to your own GitHub account (click **Fork** in the top-right corner)
-   > Important: uncheck **"Copy the main branch only"** so your fork includes all branches
-2. Clone your fork locally:
+Your team will work in **one shared copy** of this repository.
+
+### Step 1 — Create your team repository (ONE person per team only)
+
+Pick **one** teammate to do this. Everyone else waits for step 2.
+
+1. Click **Use this template** → **Create a new repository** (top-right, green button)
+2. Owner: your account. Name: `git-collab-recipes`
+3. Set visibility to **Public**
+4. ✅ Tick **Include all branches**. You need them for the bonus challenges.
+5. Click **Create repository**
+6. Go to **Settings** → **Collaborators** → **Add people** and invite each teammate
+
+### Step 2 — Everyone (including the creator)
+
+1. Accept the collaborator invite (check your email or github.com/notifications).
+   The creator can skip this.
+2. Clone the **team** repository (use the creator's username, not yours):
    ```bash
-   git clone https://github.com/your-username/git-collab-recipes
+   git clone https://github.com/creator-username/git-collab-recipes
    cd git-collab-recipes
    ```
 3. Verify you have all branches:
@@ -17,8 +32,10 @@ practice real-world GitHub workflows.
    git fetch --all
    git branch -r   # you should see fix/improve-formatting and feat/beverages
    ```
-4. Read `CONTRIBUTING.txt` — it defines the rules your team follows.
+4. Read `CONTRIBUTING.txt`. It defines the rules your team follows.
 5. Browse the existing recipes in `recipes/` to understand the format.
+
+> All teammates push branches to the same team repo and open Pull Requests there.
 
 ---
 
